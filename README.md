@@ -1,14 +1,15 @@
 # The single-cell **Co**lorectal **C**ancer **A**tlas
   
-> Marteau V., Nemati N., Handler K., ... & Arnold IC, Salcher S., Trajanoski Z. (2025). Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neutrophils in colorectal cancer. bioRxiv. [doi:10.1101/2024.08.26.609563](https://www.biorxiv.org/content/10.1101/2024.08.26.609563)
+> Marteau V., Nemati N., Handler K., ... & Arnold IC, Salcher S., Trajanoski Z. (2026). Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neutrophils in colorectal cancer. Cancer Cell, 44, 146-165.e14. [doi:10.1016/j.ccell.2025.12.003](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00537-9)
 
 The single cell colorectal cancer atlas is a resource integrating more than 4.27 million cells from 650 patients across 49 studies (77 datasets) representing 7 billion expression values. These samples encompass the full spectrum of disease progression, from normal colon to polyps, primary tumors, and metastases, covering both early and advanced stages of CRC.
 
 The atlas is publicly available for interactive exploration through a *cell-x-gene* instance. We also provide
 `h5ad` objects which allows custom analyses of the atlas. For more information, check out the
 
- * [project website](https://crc.icbi.at) and
- * our [preprint](https://www.biorxiv.org/content/10.1101/2024.08.26.609563).
+ * [project website](https://crc.icbi.at),
+ * [publication](https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00537-9), and
+ * [preprint](https://www.biorxiv.org/content/10.1101/2024.08.26.609563).
 
 This repository contains the source-code to reproduce the single-cell data analysis for the paper.
 The analyses are wrapped into [nextflow](https://github.com/nextflow-io/nextflow/) pipelines, all dependencies are
